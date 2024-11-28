@@ -1,0 +1,42 @@
+services:
+  data:
+    container_name: data
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ${DOCKER_REGISTRY}/s108_data:lts
+    env_file:
+      - .env
+    ports:
+      - "8001:8000"
+    restart: unless-stopped
+    networks:
+      - backend-network
+      - be-redis
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/dl/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 1G
+        reservations:
+          cpus: "0.5"
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  be-redis:
+    name: be-redis
+    external: true
+  backend-network:
+    name: backend-network
+    external: true

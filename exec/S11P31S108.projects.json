@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "673b44c7e0520bf75a5152ee"
+  },
+  "projectName": "나만의 CLS 프로젝트",
+  "task": "cls",
+  "modelName": "efficientnet_v2_s",
+  "description": "CLS가 잘될까?",
+  "userId": 2,
+  "department": "Research and Development",
+  "isPrivate": true,
+  "createdAt": {
+    "$date": "2024-11-18T13:44:39.300Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-18T13:44:39.300Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "673b4e32e0520bf75a5152f4"
+  },
+  "projectName": "나만의 DET 프로젝트",
+  "task": "det",
+  "modelName": "yolo11n",
+  "description": "DET는 어떨까?",
+  "userId": 2,
+  "department": "Research and Development",
+  "isPrivate": true,
+  "createdAt": {
+    "$date": "2024-11-18T14:24:50.160Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-18T14:24:50.160Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "673be7db16d003d1b8f3712b"
+  },
+  "projectName": "fdd",
+  "task": "cls",
+  "modelName": "efficientnet_v2_s",
+  "description": "ddd",
+  "userId": 12,
+  "department": "Human Resource",
+  "isPrivate": true,
+  "createdAt": {
+    "$date": "2024-11-19T01:20:27.832Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T01:20:27.832Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "673cb7bd975928924899c6a7"
+  },
+  "projectName": "oxford pet YoloV8",
+  "task": "det",
+  "modelName": "yolov8n",
+  "description": "YoloV8",
+  "userId": 1,
+  "department": "Human Resource",
+  "isPrivate": true,
+  "createdAt": {
+    "$date": "2024-11-19T16:07:25.355Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T16:07:25.355Z"
+  }
+}]

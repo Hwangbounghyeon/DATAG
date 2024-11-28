@@ -1,0 +1,3875 @@
+[{
+  "_id": {
+    "$oid": "673b4c451a8859c7bd203305"
+  },
+  "label": [
+    "British Shorthair"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:37.733676+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c461a8859c7bd20330d"
+  },
+  "label": [
+    "Persian"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:38.744703+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c471a8859c7bd203311"
+  },
+  "label": [
+    "Ragdoll"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:39.550948+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c481a8859c7bd203315"
+  },
+  "label": [
+    "Siamese"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:40.553170+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c491a8859c7bd203319"
+  },
+  "label": [
+    "Sphynx"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:41.533384+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c4a1a8859c7bd20331d"
+  },
+  "label": [
+    "Bengal"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:42.454105+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c4b1a8859c7bd203321"
+  },
+  "label": [
+    "Bombay"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:43.459457+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c4c1a8859c7bd203325"
+  },
+  "label": [
+    "Russian Blue"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:44.449184+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c4d1a8859c7bd203329"
+  },
+  "label": [
+    "Birman"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:45.258253+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c4e1a8859c7bd20332d"
+  },
+  "label": [
+    "Abyssinian"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:46.055808+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c4e1a8859c7bd203331"
+  },
+  "label": [
+    "British Shorthair"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:46.851482+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c4f1a8859c7bd203335"
+  },
+  "label": [
+    "Persian"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:47.654015+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c501a8859c7bd203339"
+  },
+  "label": [
+    "Ragdoll"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:48.457072+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c511a8859c7bd20333d"
+  },
+  "label": [
+    "Siamese"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:49.261560+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c521a8859c7bd203341"
+  },
+  "label": [
+    "Sphynx"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:50.051524+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c521a8859c7bd203345"
+  },
+  "label": [
+    "Bengal"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:50.867327+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c531a8859c7bd203349"
+  },
+  "label": [
+    "Bombay"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:51.855576+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c541a8859c7bd20334d"
+  },
+  "label": [
+    "Russian Blue"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:52.653136+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c551a8859c7bd203351"
+  },
+  "label": [
+    "Golden Retriever"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:53.654672+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c561a8859c7bd203355"
+  },
+  "label": [
+    "Beagle"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:54.454538+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c571a8859c7bd203359"
+  },
+  "label": [
+    "Chihuahua"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:55.253289+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c581a8859c7bd20335d"
+  },
+  "label": [
+    "Doberman"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:56.051399+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c591a8859c7bd203361"
+  },
+  "label": [
+    "French Bulldog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:57.048992+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c5a1a8859c7bd203365"
+  },
+  "label": [
+    "Maltese"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:58.135159+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c5a1a8859c7bd203369"
+  },
+  "label": [
+    "Pomeranian"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:58.950784+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c5b1a8859c7bd20336d"
+  },
+  "label": [
+    "Pug"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:16:59.752223+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c5c1a8859c7bd203371"
+  },
+  "label": [
+    "Shih Tzu"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:17:00.749350+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c5d1a8859c7bd203375"
+  },
+  "label": [
+    "Yorkshire Terrier"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:17:01.745597+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c5e1a8859c7bd203379"
+  },
+  "label": [
+    "Golden Retriever"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:17:02.554688+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c5f1a8859c7bd20337d"
+  },
+  "label": [
+    "Beagle"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:17:03.354050+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c601a8859c7bd203381"
+  },
+  "label": [
+    "Chihuahua"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:17:04.346360+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c611a8859c7bd203385"
+  },
+  "label": [
+    "Doberman"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:17:05.349410+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c621a8859c7bd203389"
+  },
+  "label": [
+    "French Bulldog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:17:06.352499+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4c631a8859c7bd20338d"
+  },
+  "label": [
+    "Maltese"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-18T14:17:07.347626+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e601a8859c7bd203391"
+  },
+  "label": [
+    "cat",
+    "cat"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 123,
+      "y_min": 71,
+      "x_max": 297,
+      "y_max": 592
+    },
+    {
+      "x_min": 230,
+      "y_min": 128,
+      "x_max": 638,
+      "y_max": 560
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:36.962604+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e621a8859c7bd203395"
+  },
+  "label": [
+    "cat",
+    "cat",
+    "cat",
+    "cat",
+    "cat"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 42,
+      "y_min": 214,
+      "x_max": 236,
+      "y_max": 523
+    },
+    {
+      "x_min": 151,
+      "y_min": 116,
+      "x_max": 293,
+      "y_max": 524
+    },
+    {
+      "x_min": 275,
+      "y_min": 116,
+      "x_max": 400,
+      "y_max": 491
+    },
+    {
+      "x_min": 377,
+      "y_min": 114,
+      "x_max": 500,
+      "y_max": 505
+    },
+    {
+      "x_min": 481,
+      "y_min": 148,
+      "x_max": 594,
+      "y_max": 473
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:38.654751+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e641a8859c7bd203399"
+  },
+  "label": [
+    "cat",
+    "cat",
+    "cat"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 315,
+      "y_min": 268,
+      "x_max": 639,
+      "y_max": 638
+    },
+    {
+      "x_min": 11,
+      "y_min": 5,
+      "x_max": 359,
+      "y_max": 638
+    },
+    {
+      "x_min": 360,
+      "y_min": 35,
+      "x_max": 635,
+      "y_max": 319
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:40.348002+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e661a8859c7bd20339d"
+  },
+  "label": [
+    "cat",
+    "cat",
+    "cat",
+    "cat"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 0,
+      "y_min": 47,
+      "x_max": 260,
+      "y_max": 638
+    },
+    {
+      "x_min": 197,
+      "y_min": 61,
+      "x_max": 355,
+      "y_max": 330
+    },
+    {
+      "x_min": 205,
+      "y_min": 51,
+      "x_max": 455,
+      "y_max": 638
+    },
+    {
+      "x_min": 451,
+      "y_min": 51,
+      "x_max": 605,
+      "y_max": 638
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:42.063862+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e6a1a8859c7bd2033a1"
+  },
+  "label": [
+    "cat",
+    "cat",
+    "cat",
+    "cat",
+    "cat"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 62,
+      "y_min": 176,
+      "x_max": 258,
+      "y_max": 476
+    },
+    {
+      "x_min": 128,
+      "y_min": 73,
+      "x_max": 224,
+      "y_max": 251
+    },
+    {
+      "x_min": 215,
+      "y_min": 251,
+      "x_max": 417,
+      "y_max": 538
+    },
+    {
+      "x_min": 370,
+      "y_min": 78,
+      "x_max": 517,
+      "y_max": 291
+    },
+    {
+      "x_min": 432,
+      "y_min": 204,
+      "x_max": 583,
+      "y_max": 504
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:46.347196+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e6c1a8859c7bd2033a5"
+  },
+  "label": [
+    "cat",
+    "cat",
+    "cat",
+    "cat"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 34,
+      "y_min": 98,
+      "x_max": 167,
+      "y_max": 436
+    },
+    {
+      "x_min": 137,
+      "y_min": 12,
+      "x_max": 339,
+      "y_max": 640
+    },
+    {
+      "x_min": 322,
+      "y_min": 145,
+      "x_max": 427,
+      "y_max": 530
+    },
+    {
+      "x_min": 413,
+      "y_min": 108,
+      "x_max": 594,
+      "y_max": 639
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:48.150999+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e6e1a8859c7bd2033a9"
+  },
+  "label": [
+    "cat",
+    "cat",
+    "cat",
+    "cat"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 309,
+      "y_min": 410,
+      "x_max": 422,
+      "y_max": 580
+    },
+    {
+      "x_min": 413,
+      "y_min": 121,
+      "x_max": 607,
+      "y_max": 592
+    },
+    {
+      "x_min": 22,
+      "y_min": 106,
+      "x_max": 255,
+      "y_max": 601
+    },
+    {
+      "x_min": 222,
+      "y_min": 95,
+      "x_max": 469,
+      "y_max": 416
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:50.265877+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e6f1a8859c7bd2033ad"
+  },
+  "label": [
+    "cat",
+    "cat",
+    "cat"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 0,
+      "y_min": 193,
+      "x_max": 331,
+      "y_max": 572
+    },
+    {
+      "x_min": 163,
+      "y_min": 51,
+      "x_max": 616,
+      "y_max": 567
+    },
+    {
+      "x_min": 425,
+      "y_min": 219,
+      "x_max": 638,
+      "y_max": 529
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:51.862821+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e731a8859c7bd2033b1"
+  },
+  "label": [
+    "dog",
+    "dog",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 388,
+      "y_min": 94,
+      "x_max": 598,
+      "y_max": 487
+    },
+    {
+      "x_min": 0,
+      "y_min": 119,
+      "x_max": 295,
+      "y_max": 472
+    },
+    {
+      "x_min": 229,
+      "y_min": 249,
+      "x_max": 446,
+      "y_max": 493
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:55.916500+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e751a8859c7bd2033b5"
+  },
+  "label": [
+    "dog",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 23,
+      "y_min": 16,
+      "x_max": 358,
+      "y_max": 621
+    },
+    {
+      "x_min": 282,
+      "y_min": 154,
+      "x_max": 622,
+      "y_max": 619
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:57.555946+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e771a8859c7bd2033b9"
+  },
+  "label": [
+    "dog",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 10,
+      "y_min": 79,
+      "x_max": 307,
+      "y_max": 602
+    },
+    {
+      "x_min": 323,
+      "y_min": 101,
+      "x_max": 639,
+      "y_max": 620
+    }
+  ],
+  "createdAt": "2024-11-18T14:25:59.957766+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e7a1a8859c7bd2033bd"
+  },
+  "label": [
+    "dog",
+    "dog",
+    "dog",
+    "dog",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 0,
+      "y_min": 245,
+      "x_max": 270,
+      "y_max": 624
+    },
+    {
+      "x_min": 205,
+      "y_min": 258,
+      "x_max": 557,
+      "y_max": 637
+    },
+    {
+      "x_min": 306,
+      "y_min": 71,
+      "x_max": 613,
+      "y_max": 400
+    },
+    {
+      "x_min": 102,
+      "y_min": 25,
+      "x_max": 235,
+      "y_max": 386
+    },
+    {
+      "x_min": 211,
+      "y_min": 26,
+      "x_max": 327,
+      "y_max": 294
+    }
+  ],
+  "createdAt": "2024-11-18T14:26:02.953972+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e7d1a8859c7bd2033c1"
+  },
+  "label": [
+    "dog",
+    "cat",
+    "dog",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 64,
+      "y_min": 188,
+      "x_max": 215,
+      "y_max": 486
+    },
+    {
+      "x_min": 188,
+      "y_min": 184,
+      "x_max": 331,
+      "y_max": 454
+    },
+    {
+      "x_min": 323,
+      "y_min": 154,
+      "x_max": 431,
+      "y_max": 450
+    },
+    {
+      "x_min": 432,
+      "y_min": 178,
+      "x_max": 563,
+      "y_max": 428
+    }
+  ],
+  "createdAt": "2024-11-18T14:26:05.867299+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e7f1a8859c7bd2033c5"
+  },
+  "label": [
+    "dog",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 43,
+      "y_min": 76,
+      "x_max": 357,
+      "y_max": 523
+    },
+    {
+      "x_min": 354,
+      "y_min": 124,
+      "x_max": 604,
+      "y_max": 513
+    }
+  ],
+  "createdAt": "2024-11-18T14:26:07.564634+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e811a8859c7bd2033c9"
+  },
+  "label": [
+    "dog",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 131,
+      "y_min": 138,
+      "x_max": 277,
+      "y_max": 541
+    },
+    {
+      "x_min": 320,
+      "y_min": 87,
+      "x_max": 513,
+      "y_max": 638
+    }
+  ],
+  "createdAt": "2024-11-18T14:26:09.764926+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e841a8859c7bd2033cd"
+  },
+  "label": [
+    "dog",
+    "dog",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 188,
+      "y_min": 84,
+      "x_max": 339,
+      "y_max": 425
+    },
+    {
+      "x_min": 400,
+      "y_min": 58,
+      "x_max": 537,
+      "y_max": 533
+    },
+    {
+      "x_min": 85,
+      "y_min": 320,
+      "x_max": 565,
+      "y_max": 603
+    }
+  ],
+  "createdAt": "2024-11-18T14:26:12.356714+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e871a8859c7bd2033d1"
+  },
+  "label": [
+    "dog",
+    "cat"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 266,
+      "y_min": 150,
+      "x_max": 621,
+      "y_max": 490
+    },
+    {
+      "x_min": 0,
+      "y_min": 174,
+      "x_max": 325,
+      "y_max": 476
+    }
+  ],
+  "createdAt": "2024-11-18T14:26:15.560170+00:00"
+},
+{
+  "_id": {
+    "$oid": "673b4e891a8859c7bd2033d5"
+  },
+  "label": [
+    "dog",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 413,
+      "y_min": 28,
+      "x_max": 638,
+      "y_max": 561
+    },
+    {
+      "x_min": 0,
+      "y_min": 235,
+      "x_max": 453,
+      "y_max": 550
+    }
+  ],
+  "createdAt": "2024-11-18T14:26:17.670546+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8841eba41867e1d9665d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:21.202495+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8844eba41867e1d96661"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:24.121148+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8846eba41867e1d96665"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:26.032398+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8847eba41867e1d96669"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:27.725205+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8849eba41867e1d9666d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:29.815314+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e884beba41867e1d96671"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:31.610300+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e884eeba41867e1d96675"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:34.808994+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8850eba41867e1d96679"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:36.922670+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8852eba41867e1d9667d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:38.512775+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8854eba41867e1d96681"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:40.327691+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8855eba41867e1d96685"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:41.884833+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8857eba41867e1d96689"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:43.742718+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8859eba41867e1d9668d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:45.819106+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e885deba41867e1d96691"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:49.014565+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e885eeba41867e1d96695"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:50.626092+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8860eba41867e1d96699"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:52.512473+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8862eba41867e1d9669d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:54.085212+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8865eba41867e1d966a1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:57.527548+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8867eba41867e1d966a5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:09:59.436881+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8869eba41867e1d966a9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:01.425098+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e886beba41867e1d966ad"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:03.814445+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e886deba41867e1d966b1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:05.813687+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8870eba41867e1d966b5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:08.041698+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8872eba41867e1d966b9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:10.407242+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8874eba41867e1d966bd"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:12.437036+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8876eba41867e1d966c1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:14.324456+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8878eba41867e1d966c5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:16.523348+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e887aeba41867e1d966c9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:18.626087+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e887ceba41867e1d966cd"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:20.738599+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e887eeba41867e1d966d1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:22.814246+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8880eba41867e1d966d5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:24.909843+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8887eba41867e1d966d9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:31.024998+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8889eba41867e1d966dd"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:33.217001+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e888beba41867e1d966e1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:35.414204+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e888deba41867e1d966e5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:37.727079+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e888feba41867e1d966e9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:39.636757+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8891eba41867e1d966ed"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:41.828583+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8893eba41867e1d966f1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:43.923776+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8896eba41867e1d966f5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:46.109840+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8898eba41867e1d966f9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:48.421173+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e889aeba41867e1d966fd"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:50.685567+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e889feba41867e1d96701"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:55.698461+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88a1eba41867e1d96705"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:57.708669+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88a3eba41867e1d96709"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:10:59.907034+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88a5eba41867e1d9670d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:01.823455+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88a7eba41867e1d96711"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:03.917271+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88aaeba41867e1d96715"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:06.030966+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88aceba41867e1d96719"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:08.225939+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88aeeba41867e1d9671d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:10.214716+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88b1eba41867e1d96721"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:13.497150+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88b3eba41867e1d96725"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:15.507489+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88b5eba41867e1d96729"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:17.517379+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88b7eba41867e1d9672d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:19.812440+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88baeba41867e1d96731"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:22.105330+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88bceba41867e1d96735"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:24.219819+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88beeba41867e1d96739"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:26.513071+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88c0eba41867e1d9673d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:28.516175+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88c2eba41867e1d96741"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:30.435429+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88c4eba41867e1d96745"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:32.484629+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88c6eba41867e1d96749"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:34.414784+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88cbeba41867e1d9674d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:39.414271+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88cdeba41867e1d96751"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:41.631264+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88cfeba41867e1d96755"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:43.738240+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88d2eba41867e1d96759"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:46.225771+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88d4eba41867e1d9675d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:48.412832+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88d6eba41867e1d96761"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:50.418734+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88d8eba41867e1d96765"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:52.629721+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88daeba41867e1d96769"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:54.608295+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88dceba41867e1d9676d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:11:56.719345+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88e0eba41867e1d96771"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:00.227463+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88e6eba41867e1d96775"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:06.817684+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88ebeba41867e1d96779"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:11.431917+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88edeba41867e1d9677d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:13.620808+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88efeba41867e1d96781"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:15.911249+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88f1eba41867e1d96785"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:17.921125+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88f4eba41867e1d96789"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:20.231101+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88f6eba41867e1d9678d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:22.321774+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88f8eba41867e1d96791"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:24.695110+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88faeba41867e1d96795"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:26.796646+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e88feeba41867e1d96799"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:30.428839+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8900eba41867e1d9679d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:32.412865+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8903eba41867e1d967a1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:35.719708+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8905eba41867e1d967a5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:37.810355+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8909eba41867e1d967a9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:41.128314+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e890ceba41867e1d967ad"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:44.729829+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e890eeba41867e1d967b1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:46.821324+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8910eba41867e1d967b5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:48.920184+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8912eba41867e1d967b9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:50.921326+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8915eba41867e1d967bd"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:53.019299+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8916eba41867e1d967c1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:54.930724+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e891aeba41867e1d967c5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:12:58.415937+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e891ceba41867e1d967c9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:00.411616+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e891eeba41867e1d967cd"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:02.436420+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8920eba41867e1d967d1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:04.309486+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8922eba41867e1d967d5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:06.019728+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8924eba41867e1d967d9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:08.022787+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8927eba41867e1d967dd"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:11.110296+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8929eba41867e1d967e1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:13.713304+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e892ceba41867e1d967e5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:16.730631+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e892eeba41867e1d967e9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:18.525628+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8930eba41867e1d967ed"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:20.408925+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8933eba41867e1d967f1"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:23.329932+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8934eba41867e1d967f5"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:24.896356+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8937eba41867e1d967f9"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:27.519557+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8939eba41867e1d967fd"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:29.336116+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e893beba41867e1d96801"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:31.221065+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e893deba41867e1d96805"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:33.124688+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e893feba41867e1d96809"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:35.209964+00:00"
+},
+{
+  "_id": {
+    "$oid": "673e8941eba41867e1d9680d"
+  },
+  "label": [
+    "cat",
+    "dog"
+  ],
+  "bounding_boxes": [
+    {
+      "x_min": 50,
+      "y_min": 50,
+      "x_max": 200,
+      "y_max": 200
+    },
+    {
+      "x_min": 250,
+      "y_min": 150,
+      "x_max": 400,
+      "y_max": 300
+    }
+  ],
+  "createdAt": "2024-11-21T01:13:37.124955+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd933eba41867e1d96811"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:06:59.613269+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd934eba41867e1d96815"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:00.544070+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd935eba41867e1d96819"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:01.335407+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd936eba41867e1d9681d"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:02.315211+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd937eba41867e1d96821"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:03.316595+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd938eba41867e1d96825"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:04.315245+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd939eba41867e1d96829"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:05.313695+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd93aeba41867e1d9682d"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:06.312680+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd93beba41867e1d96831"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:07.121728+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd93beba41867e1d96835"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:07.924917+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd93ceba41867e1d96839"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:08.700818+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd93deba41867e1d9683d"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:09.484281+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd93eeba41867e1d96841"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:10.263076+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd93feba41867e1d96845"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:11.026980+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd93feba41867e1d96849"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:11.885458+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd940eba41867e1d9684d"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:12.820260+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd941eba41867e1d96851"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:13.777651+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd942eba41867e1d96855"
+  },
+  "label": [
+    "cat"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:14.617269+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd943eba41867e1d96859"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:15.618615+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd944eba41867e1d9685d"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:16.405349+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd945eba41867e1d96861"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:17.201857+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd946eba41867e1d96865"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:18.019503+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd946eba41867e1d96869"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:18.989456+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd947eba41867e1d9686d"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:19.922708+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd948eba41867e1d96871"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:20.721417+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd949eba41867e1d96875"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:21.544759+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd94aeba41867e1d96879"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:22.519181+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd94beba41867e1d9687d"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:23.515498+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd94ceba41867e1d96881"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:24.320687+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd94deba41867e1d96885"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:25.112630+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd94eeba41867e1d96889"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:26.077904+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd94feba41867e1d9688d"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:27.043789+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd94feba41867e1d96891"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:27.842184+00:00"
+},
+{
+  "_id": {
+    "$oid": "673fd950eba41867e1d96895"
+  },
+  "label": [
+    "dog"
+  ],
+  "bounding_boxes": [],
+  "createdAt": "2024-11-22T01:07:28.775412+00:00"
+}]

@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "673b4c36e0520bf75a5152f0"
+  },
+  "userId": 2,
+  "projectId": "673b44c7e0520bf75a5152ee",
+  "isDone": true,
+  "createdAt": {
+    "$date": "2024-11-18T14:16:22.420Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-18T14:17:07.529Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "673b4e52e0520bf75a5152f5"
+  },
+  "userId": 2,
+  "projectId": "673b4e32e0520bf75a5152f4",
+  "isDone": true,
+  "createdAt": {
+    "$date": "2024-11-18T14:25:22.646Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-18T14:26:17.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "673cb878975928924899c6a8"
+  },
+  "userId": 1,
+  "projectId": "673cb7bd975928924899c6a7",
+  "isDone": false,
+  "createdAt": {
+    "$date": "2024-11-19T16:10:32.953Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T16:10:32.954Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "673cb92d975928924899c6a9"
+  },
+  "userId": 1,
+  "projectId": "673cb7bd975928924899c6a7",
+  "isDone": true,
+  "createdAt": {
+    "$date": "2024-11-19T16:13:33.268Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-19T16:18:23.151Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "673d6350e260fc36a4fdd306"
+  },
+  "userId": 2,
+  "projectId": "673b44c7e0520bf75a5152ee",
+  "isDone": true,
+  "createdAt": {
+    "$date": "2024-11-20T04:19:28.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-20T04:19:35.755Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "673e88080f5eb08bfc55f312"
+  },
+  "userId": 2,
+  "projectId": "673e87ff0f5eb08bfc55f311",
+  "isDone": true,
+  "createdAt": {
+    "$date": "2024-11-21T01:08:24.974Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-21T01:13:37.329Z"
+  }
+}]

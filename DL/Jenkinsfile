@@ -1,0 +1,160 @@
+pipeline {
+    agent any
+    
+    environment {
+        DOCKER_REGISTRY = 'jingluv'
+        DOCKER_CREDENTIALS = credentials('khk-docker')
+        GIT_VERSION = sh(script: 'git describe --tags --always', returnStdout: true).trim()
+    }
+    
+    stages {
+        stage('변경사항 감지') {
+                steps {
+                    script {
+                        def allowedBranches = ['master', 'develop', 'BE']
+                        def targetBranch = env.gitlabTargetBranch ?: env.BRANCH_NAME
+                        def eventType = env.gitlabActionType
+                        
+                        // 현재 브랜치나 타겟 브랜치가 허용된 브랜치가 아니거나,
+                        // merge 이벤트가 아닌 경우 (push 이벤트는 null)
+                        if (!allowedBranches.contains(targetBranch) && 
+                            (eventType != null && eventType != 'merge')) {
+                            currentBuild.result = 'SUCCESS'
+                            echo "허용되지 않은 브랜치 또는 이벤트입니다. 파이프라인을 중단합니다."
+                            return
+                        }
+                        // 이전 커밋과 현재 커밋 사이의 변경된 파일 목록 가져오기
+                        def changes = sh(
+                            script: "git diff --name-only HEAD^..HEAD | grep '^DL/app/' || true",
+                            returnStdout: true
+                        ).trim()
+                        
+                        // DL/app/ 디렉토리 내 변경사항이 없으면 파이프라인 중단
+                        if (changes.isEmpty()) {
+                            currentBuild.result = 'SUCCESS'
+                            echo "DL/app/ 디렉토리에 변경사항이 없습니다. 파이프라인을 건너뜁니다."
+                            return
+                        }
+                    }
+                }
+        }
+        stage('체크아웃') {
+            steps {
+                checkout scm
+            }
+        }
+        
+        stage('환경 변수 설정') {
+            steps {
+                script {
+                    dir('DL/app'){
+                    withCredentials([
+                        string(credentialsId: 'MARIA_USER', variable: 'MARIA_USER'),
+                        string(credentialsId: 'MARIA_PASSWORD', variable: 'MARIA_PASSWORD'),
+                        string(credentialsId: 'MARIA_HOST', variable: 'MARIA_HOST'),
+                        string(credentialsId: 'MONGO_URL', variable: 'MONGO_URL'),
+                        string(credentialsId: 'REDIS_HOST', variable: 'REDIS_HOST'),
+                        string(credentialsId: 'REDIS_PASSWORD', variable: 'REDIS_PASSWORD'),
+                        string(credentialsId: 'S3_ACCESS_KEY', variable: 'S3_ACCESS_KEY'),
+                        string(credentialsId: 'S3_SECRET_ACCESS_KEY', variable: 'S3_SECRET_ACCESS_KEY'),
+                        string(credentialsId: 'JWT_SECRET_KEY', variable: 'JWT_SECRET_KEY'),
+                        string(credentialsId: 'EC2_HOST', variable: 'EC2_HOST')
+                    ]) {
+                        sh '''
+                            cat << EOF > .env
+                            MARIA_USER=${MARIA_USER}
+                            MARIA_PASSWORD=${MARIA_PASSWORD}
+                            MARIA_HOST=${MARIA_HOST}
+                            MARIA_PORT=3306
+                            MARIA_DATABASE=S11P31S108
+                            
+                            MONGO_URL=${MONGO_URL}
+                            
+                            ADMINISTRATOR_EMAIL=s11p31s108@gmail.com
+                            SMTP_HOST=smtp.gmail.com
+                            SMTP_PORT=587
+                            SMTP_PASSWORD=eniq dngg zovd uwmp
+                            
+                            REDIS_HOST=${REDIS_HOST}
+                            REDIS_PORT=6379
+                            REDIS_PASSWORD=${REDIS_PASSWORD}
+                            
+                            S3_ACCESS_KEY=${S3_ACCESS_KEY}
+                            S3_SECRET_ACCESS_KEY=${S3_SECRET_ACCESS_KEY}
+                            S3_REGION_NAME=us-east-2
+                            
+                            JWT_SECRET_KEY=${JWT_SECRET_KEY}
+                            
+                            EC2_HOST=${EC2_HOST}
+                            EOF
+                        '''
+                    }}
+                }
+            }
+        }
+
+        stage('Docker Image 빌드') {
+            steps {
+                script {
+                    dir('DL/app'){
+                    // Git 버전과 LTS 버전 빌드
+                    sh"""
+                    docker-compose -f docker-compose-version.yml build
+                    docker-compose -f docker-compose-lts.yml build
+                    """
+                    // sh """
+                    // docker build -t ${DOCKER_REGISTRY}/s108_data:${GIT_VERSION} -f Dockerfile .
+                    // docker build -t ${DOCKER_REGISTRY}/s108_data:lts -f Dockerfile .
+                    // """
+                    }
+                }
+            }
+        }
+        
+        stage('Docker Hub 업로드') {
+            steps {
+                script {
+                    withCredentials([usernamePassword(credentialsId: 'khk-docker', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASSWORD')]) {
+                        sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USER --password-stdin'
+                    }
+                    
+                    sh """
+                        docker push ${DOCKER_REGISTRY}/s108_data:${GIT_VERSION}
+                        docker push ${DOCKER_REGISTRY}/s108_data:lts
+                    """
+                }
+            }
+        }
+        
+        stage('Docker Image 배포') {
+            steps {
+                script {
+                    dir('DL/app'){
+                    sh """
+                        docker-compose -f docker-compose-lts.yml down
+                        docker rm -f data || true
+                        docker rmi -f jingluv/s108_data:lts || true
+                        docker-compose -f docker-compose-lts.yml up -d
+                    """
+                    }
+                }
+            }
+        }
+    }
+    
+    post {
+        success {
+            script {
+                sh """
+                    echo "최신 버전: ${GIT_VERSION}" > version.properties
+                    echo "${GIT_VERSION} 버전으로 배포가 완료되었습니다."
+                """
+                archiveArtifacts artifacts: 'version.properties'
+            }
+        }
+        always {
+            sh 'rm -f .env'
+            // cleanWs()
+        }
+    }
+}

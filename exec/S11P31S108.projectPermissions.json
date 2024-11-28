@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "673b44c7e0520bf75a5152ef"
+  },
+  "user": {
+    "1": {
+      "view": [
+        "673be7db16d003d1b8f3712b"
+      ],
+      "edit": [
+        "673cb7bd975928924899c6a7"
+      ]
+    },
+    "2": {
+      "view": [],
+      "edit": [
+        "673b44c7e0520bf75a5152ee",
+        "673b4e32e0520bf75a5152f4"
+      ]
+    },
+    "3": {
+      "view": [],
+      "edit": []
+    },
+    "12": {
+      "view": [],
+      "edit": [
+        "673be7db16d003d1b8f3712b"
+      ]
+    }
+  },
+  "department": {
+    "Research and Development": {
+      "view": [],
+      "edit": [
+        "673b44c7e0520bf75a5152ee",
+        "673b4e32e0520bf75a5152f4"
+      ]
+    },
+    "Human Resource": {
+      "view": [
+        "673b4e32e0520bf75a5152f4",
+        "673be7db16d003d1b8f3712b"
+      ],
+      "edit": [
+        "673be7db16d003d1b8f3712b",
+        "673cb7bd975928924899c6a7"
+      ]
+    },
+    "Production Management": {
+      "view": [],
+      "edit": []
+    },
+    "Production Technology": {
+      "view": [],
+      "edit": []
+    },
+    "Computer": {
+      "view": [],
+      "edit": []
+    },
+    "Quality Control": {
+      "view": [],
+      "edit": []
+    }
+  }
+}]

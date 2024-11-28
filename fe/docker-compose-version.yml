@@ -1,0 +1,29 @@
+services:
+  frontend:
+    container_name: frontend-${GIT_VERSION}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_BACKEND_URL=${NEXT_PUBLIC_BACKEND_URL}
+        - NEXT_PUBLIC_FRONTEND_URL=${NEXT_PUBLIC_FRONTEND_URL}
+    image: ${DOCKER_REGISTRY}/s108_frontend:${GIT_VERSION}
+    environment:
+      - NEXT_PUBLIC_BACKEND_URL=${NEXT_PUBLIC_BACKEND_URL}
+      - NEXT_PUBLIC_FRONTEND_URL=${NEXT_PUBLIC_FRONTEND_URL}
+      - ACCESSTOKEN_DURATION=${ACCESSTOKEN_DURATION}
+      - REFRESHTOKEN_DURATION=${REFRESHTOKEN_DURATION}
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    networks:
+      - be-redis
+      - nginx-frontend
+
+networks:
+  be-redis:
+    name: be-redis
+    external: true
+  nginx-frontend:
+    name: nginx-frontend
+    external: true

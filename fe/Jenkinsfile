@@ -1,0 +1,117 @@
+pipeline {
+    agent any
+    
+    environment {
+        DOCKER_REGISTRY = 'jingluv'
+        DOCKER_CREDENTIALS = credentials('khk-docker')
+        GIT_VERSION = sh(script: 'git describe --tags --always', returnStdout: true).trim()
+        NEXT_PUBLIC_BACKEND_URL = credentials('NEXT_PUBLIC_BACKEND_URL')
+        NEXT_PUBLIC_FRONTEND_URL = credentials('NEXT_PUBLIC_FRONTEND_URL')
+    }
+    
+    stages {
+        stage('변경사항 감지') {
+            steps {
+                script {
+                    def allowedBranches = ['master', 'develop', 'FE']
+                    def targetBranch = env.gitlabTargetBranch ?: env.BRANCH_NAME
+                    def eventType = env.gitlabActionType
+                    
+                    if (!allowedBranches.contains(targetBranch) && 
+                        (eventType != null && eventType != 'merge')) {
+                        currentBuild.result = 'SUCCESS'
+                        echo "허용되지 않은 브랜치 또는 이벤트입니다. 파이프라인을 중단합니다."
+                        return
+                    }
+
+                    def changes = sh(
+                        script: "git diff --name-only HEAD^..HEAD | grep '^fe/' || true",
+                        returnStdout: true
+                    ).trim()
+                    
+                    if (changes.isEmpty()) {
+                        currentBuild.result = 'SUCCESS'
+                        echo "fe/ 디렉토리에 변경사항이 없습니다. 파이프라인을 건너뜁니다."
+                        return
+                    }
+                }
+            }
+        }
+
+        stage('의존성 검사') {
+            steps {
+                dir('fe') {
+                    sh 'npm ci'
+                    sh 'npm run lint'
+                    sh 'npx tsc --noEmit'
+                }
+            }
+        }
+        
+        stage('Docker 이미지 빌드') {
+            steps {
+                dir('fe') {
+                    script {
+                        sh """
+                            docker build \
+                                --build-arg NEXT_PUBLIC_BACKEND_URL=${NEXT_PUBLIC_BACKEND_URL} \
+                                --build-arg NEXT_PUBLIC_FRONTEND_URL=${NEXT_PUBLIC_FRONTEND_URL} \
+                                -t ${DOCKER_REGISTRY}/s108_frontend:${GIT_VERSION} \
+                                -t ${DOCKER_REGISTRY}/s108_frontend:lts .
+                        """
+                    }
+                }
+            }
+        }
+        
+        stage('Docker Hub 업로드') {
+            steps {
+                script {
+                    withCredentials([usernamePassword(credentialsId: 'khk-docker', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASSWORD')]) {
+                        sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USER --password-stdin'
+                    }
+                    
+                    sh """
+                        docker push ${DOCKER_REGISTRY}/s108_frontend:${GIT_VERSION}
+                        docker push ${DOCKER_REGISTRY}/s108_frontend:lts
+                    """
+                }
+            }
+        }
+        
+        stage('Docker Image 배포') {
+            steps {
+                dir('fe') {
+                    sh '''
+                        docker-compose -f docker-compose-lts.yml down
+                        docker rm -f frontend || true
+                        docker rmi -f jingluv/s108_frontend:lts || true
+                        docker-compose -f docker-compose-lts.yml up -d
+
+                    '''
+                }
+            }
+        }
+    }
+    
+    post {
+        success {
+            script {
+                sh """
+                    echo "최신 버전: ${GIT_VERSION}" > version.properties
+                    echo "${GIT_VERSION} 버전으로 배포가 완료되었습니다."
+                """
+                archiveArtifacts artifacts: 'version.properties'
+            }
+        }
+        failure {
+            echo '배포 실패'
+        }
+        always {
+            // 작업 디렉토리 정리
+            cleanWs()
+            // 사용하지 않는 Docker 이미지 정리
+            sh 'docker image prune -f'
+        }
+    }
+}

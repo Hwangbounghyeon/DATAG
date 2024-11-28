@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "673b4cafe0520bf75a5152f3"
+  },
+  "project": {
+    "673b44c7e0520bf75a5152ee": [
+      "673b4cafe0520bf75a5152f2",
+      "673eecbf0f5eb08bfc55f316"
+    ],
+    "673b4e32e0520bf75a5152f4": [
+      "673b50eee0520bf75a5152f6",
+      "673be63116d003d1b8f3712a",
+      "673c24cc3fed86ac74ee263a",
+      "673c24ea3fed86ac74ee263b",
+      "673c25423fed86ac74ee263c",
+      "673c26b33fed86ac74ee263d",
+      "673c2afe3fed86ac74ee263e",
+      "673c2e853fed86ac74ee263f",
+      "673d3a20e260fc36a4fdd305",
+      "673ec2020f5eb08bfc55f314",
+      "673edd960f5eb08bfc55f315",
+      "673ef1cc0f5eb08bfc55f317"
+    ],
+    "673cb7bd975928924899c6a7": [
+      "673cbbd6975928924899c6aa"
+    ]
+  }
+}]
